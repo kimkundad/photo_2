@@ -15,6 +15,8 @@
   <link href="assets/css/base.css" rel="stylesheet">
   <link href="assets/css/skins/square/grey.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/slider-pro.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
 
 
   <style>
@@ -31,97 +33,22 @@
     strong {
       font-family: 'Kanit', sans-serif;
     }
-
     p {
       font-size: 14px;
     }
-
     body {
 
       font-size: 13px;
-
-    }
-
-    .wishlist a {
-      color: #fff;
-      cursor: pointer;
-      display: block;
-    }
-
-    .wishlist:before {
-      font-style: normal;
-      font-weight: 400;
-      font-family: "icon_set_1";
-      font-size: 40px;
-      content: "\72";
-      color: #fff;
-      position: absolute;
-      left: 0;
-      bottom: : 4px;
-    }
-
-    .wishlist {
-      position: absolute;
-      bottom: 25px;
-      right: 20px;
-      width: 40px;
-      height: 40px;
-      z-index: 2;
-      font-size: 20px;
-      line-height: 40px;
-      text-align: center;
-      cursor: pointer;
-    }
-
-    .tour_container {
-
-      margin-bottom: 12px;
-    }
-
-    .short_info {
-      font-size: 16px;
-    }
-
-    .goog-te-gadget-simple .goog-te-menu-value span {
-      color: #666;
-      background: transparent;
-    }
-
-    .skiptranslate {}
-
-    @media only screen and (max-width:768px) {
-      .goog-te-gadget-simple .goog-te-menu-value {
-        margin-top: -20px;
-        margin-left: 30px;
-      }
-      .goog-te-gadget-simple {
-        float: right;
-      }
-    }
-
-    .bobo {}
-
-    #logo {
-      margin-top: 8px;
-      margin-bottom: 8px;
-      text-align: center;
-    }
-
-    #top_line {
-      height: auto;
-    }
-
-    .sp-buttons {
-      top: -40px
     }
 
     .slider-pro {
       margin-top: 120px;
     }
 
-    #top_line a {
-      color: #888;
-    }
+
+
+
+
   </style>
 
 </head>
@@ -156,26 +83,45 @@
 
           <div class="col-md-4 col-sm-3 col-xs-3">
             <div id="logo">
-              <a href=""><img src="assets/image/logo-website.png" height="64" alt="TEENEEJJ" data-retina="true" class="logo_normal"></a>
+              <a href="index.html"><img src="assets/image/logo-website.png" height="64" alt="TEENEEJJ" data-retina="true" class="logo_normal"></a>
 
             </div>
           </div>
 
           <div class="col-md-4 col-sm-6 col-xs-6">
             <ul id="top_links">
-              <li>
 
+
+              <li>
+								<div class="dropdown dropdown-mini">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="access_link" >shuvit funsok</a>
+									<div class="dropdown-menu">
+										<ul id="lang_menu">
+
+											<li><a href="#0">Profile</a>
+											</li>
+											<li><a href="#0">Setting</a>
+											</li>
+											<li><a href="#0">My Order</a>
+											</li>
+											<li><a href="#0">Sign out</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<!-- End Dropdown access -->
+							</li>
+
+
+              <li>
                 <div class="dropdown dropdown-access">
                   <a href="" class="dropdown-toggle" id="access_link">login</a>
 
                 </div>
                 <!-- End Dropdown access -->
-
-
               </li>
               <li><a href="" id="wishlist_link">Wishlist</a></li>
-              <li id="lang_top"><i class="icon-globe-1"></i> <a href="#0">EN</a> - <a href="#0">TH</a>
-              </li>
+
             </ul>
           </div>
         </div>
@@ -190,7 +136,7 @@
 
         <div class="col-md-3 col-sm-3 col-xs-3 visible-sm visible-xs">
           <div id="logo" style="margin-top: 5px; margin-bottom: 5px;">
-            <a href=""><img src="assets/image/logo-website.png" height="64" alt="TEENEEJJ" data-retina="true" style="height: 40px;" class="logo_normal"></a>
+            <a href="index.html"><img src="assets/image/logo-website.png" height="64" alt="TEENEEJJ" data-retina="true" style="height: 40px;" class="logo_normal"></a>
 
           </div>
         </div>
@@ -208,7 +154,7 @@
               <li class="submenu">
                 <a href="javascript:void(0);" class="show-submenu">PHOTO PRINT <i class="icon-down-open-mini"></i></a>
                 <ul>
-                  <li><a href="#">TRADITIONAL SIZES</a></li>
+                  <li><a href="photo_print.html">TRADITIONAL SIZES</a></li>
                   <li><a href="#">SNAP SIZE</a></li>
                   <li><a href="#">POLAROID SIZE</a></li>
                   <li><a href="#">INSTAGRAM SIZE</a></li>
@@ -221,7 +167,7 @@
               <li class="submenu">
                 <a href="javascript:void(0);" class="show-submenu">DIGITAL OFFSET PRINTS <i class="icon-down-open-mini"></i></a>
                 <ul>
-                  <li><a href="#">2 SIDED PRINT</a></li>
+                  <li><a href="product_1.html">2 SIDED PRINT</a></li>
                   <li><a href="#">POSTCARD</a></li>
                   <li><a href="#">NAME CARD</a></li>
                   <li><a href="#">LABEL STICKER</a></li>
@@ -293,6 +239,7 @@
 
 
 
+
             </ul>
 
 
@@ -300,8 +247,14 @@
           <!-- End main-menu -->
 
 
-          <ul id="top_tools">
+          <ul id="top_tools" class=" leng-switch">
 
+            <li class="submenu hidden-sm hidden-xs">
+              <div style="position: relative; top: -6px;">
+                <i class="icon-globe-1"></i> <a href="#0">EN</a> - <a href="#0">TH</a>
+              </div>
+
+            </li>
                         <li>
                             <div class="dropdown dropdown-cart">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class=" icon-basket-1"></i>Cart (2) </a>
@@ -321,8 +274,8 @@
 
                                     <li>
                                         <div>Total: <span>$120.00</span></div>
-                                        <a href="#" class="button_drop">Go to cart</a>
-                                        <a href="#" class="button_drop outline">Check out</a>
+                                        <a href="cart.html" class="button_drop">Go to cart</a>
+                                        <a href="shipping.html" class="button_drop outline">Check out</a>
                                     </li>
                                 </ul>
                             </div><!-- End dropdown-cart-->
@@ -414,7 +367,7 @@
 
         <div class="col-md-6 col-sm-6 text-center">
           <p>
-            <a href="#"><img src="assets/images/nn1.jpg" alt="Pic" class="img-responsive"></a>
+            <a href="photo_print.html"><img src="assets/images/nn1.jpg" alt="Pic" class="img-responsive"></a>
           </p>
           <h4>FLAT CARDS</h4>
           <p>
@@ -424,7 +377,7 @@
 
         <div class="col-md-6 col-sm-6 text-center">
           <p>
-            <a href="#"><img src="assets/images/nn2.jpg" alt="Pic" class="img-responsive"></a>
+            <a href="product_1.html"><img src="assets/images/nn2.jpg" alt="Pic" class="img-responsive"></a>
           </p>
           <h4>FLAT CARDS</h4>
           <p>
@@ -477,6 +430,113 @@
 
       </div>
 
+
+      <p class="text-center add_bottom_30 margin_60">
+				<a href="#" class="btn_1">All Product </a>
+			</p>
+
+
+      <div class=" margin_30 text-center">
+        <h2 class="major"><span>WHAT'S HOT</span></h2>
+
+      </div>
+
+
+
+      <div class="row">
+
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <p>
+            <a href="#"><img src="assets/images/HGifts.jpg" alt="Pic" class="img-responsive"></a>
+          </p>
+          <h4>FLAT CARDS</h4>
+          <p>
+            70% off 5x7 Stationery Flat Cards.
+          </p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <p>
+            <a href="#"><img src="assets/images/HPhotobooks.jpg" alt="Pic" class="img-responsive"></a>
+          </p>
+          <h4>FLAT CARDS</h4>
+          <p>
+            70% off 5x7 Stationery Flat Cards.
+          </p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <p>
+            <a href="#"><img src="assets/images/Hframes.jpg" alt="Pic" class="img-responsive"></a>
+          </p>
+          <h4>FLAT CARDS</h4>
+          <p>
+            70% off 5x7 Stationery Flat Cards.
+          </p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <p>
+            <a href="#"><img src="assets/images/HGifts.jpg" alt="Pic" class="img-responsive"></a>
+          </p>
+          <h4>FLAT CARDS</h4>
+          <p>
+            70% off 5x7 Stationery Flat Cards.
+          </p>
+        </div>
+
+
+      </div>
+
+
+
+
+      <p class="text-center add_bottom_30 margin_60">
+				<a href="#" class="btn_1">All Product </a>
+			</p>
+
+
+      <div class=" margin_30 text-center">
+        <h2 class="major"><span>OUR CUSTOMERS</span></h2>
+
+      </div>
+
+
+
+      <section class="regular slider">
+        <div>
+          <img src="assets/image/logo-Isuzu.png">
+        </div>
+        <div>
+          <img src="assets/image/logo-fwd.png">
+        </div>
+        <div>
+          <img src="assets/image/logo-samsung.png">
+        </div>
+        <div>
+          <img src="assets/image/logo-SB.png">
+        </div>
+        <div>
+          <img src="assets/image/logo-scotch.png">
+        </div>
+        <div>
+          <img src="assets/image/logo-thaiairway.png">
+        </div>
+        <div>
+          <img src="assets/image/logo-major.png">
+        </div>
+        <div>
+          <img src="assets/image/logo-pasaya.png">
+        </div>
+        <div>
+          <img src="assets/image/logo-ptt.png">
+        </div>
+        <div>
+          <img src="assets/image/logo-SCG.png">
+        </div>
+      </section>
+
     </div>
     <!-- End container -->
   </main>
@@ -486,30 +546,7 @@
 
 
 
-  <style>
-    h2.major {
-      position: relative;
-      border-top: solid 5px #e7eae8;
 
-    }
-
-    h2.major span {
-      background: #f9f9f9;
-      position: relative;
-      display: inline-block;
-      top: -0.775em;
-      padding: 0 1.5em 0 1.5em;
-      color: #6b7770;
-    }
-
-    #social_footer ul li img {
-      height: 30px;
-    }
-
-    .general_icons ul li img {
-      height: 50px;
-    }
-  </style>
 
 
   <footer class="revealed">
@@ -603,6 +640,20 @@
 
 
         autoHeight: true,
+      });
+    });
+  </script>
+
+  <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 6,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        slidesToScroll: 6
       });
     });
   </script>
