@@ -115,7 +115,7 @@
 
               <li>
                 <div class="dropdown dropdown-access">
-                  <a href="" class="dropdown-toggle" id="access_link">login</a>
+                  <a href="login.html" class="dropdown-toggle" id="access_link">login</a>
 
                 </div>
                 <!-- End Dropdown access -->
@@ -342,8 +342,8 @@
             </p>
 
 
-            <a href="#" class="btn_1">Login</a>
-            <a href="#" class="btn_3">Sign up</a>
+            <a href="login.html" class="btn_1">Login</a>
+            <a href="login.html" class="btn_3">Sign up</a>
           </div>
 
         </div>
