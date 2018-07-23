@@ -19,21 +19,21 @@ if($_SESSION["lang"] == null){
 
 if($_SESSION["lang"] == "thai"){
 
-  $thai = [
+  $thai = array(
       'index' => 'หน้าหลัก',
       'lang' => 'ไทย',
       'category' => 'หมวดหมู่',
       'test' => 'ทดสอบเปลี่ยนภาษาเป็น '
-  ];
+  );
 
 }else{
 
-  $thai = [
+  $thai = array(
     'index' => 'Home',
     'lang' => 'Eng',
     'category' => 'Category',
     'test' => 'Test change to Language Thai'
-  ];
+  );
 
 }
 
