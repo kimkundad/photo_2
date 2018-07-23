@@ -312,17 +312,17 @@
 
       <div class="f1-steps">
         <div class="f1-progress">
-            <div class="f1-progress-line" data-now-value="13.66" data-number-of-steps="4" style="width: 63%;"></div>
+            <div class="f1-progress-line" data-now-value="16.66" data-number-of-steps="4" style="width: 13.66%;"></div>
         </div>
         <div class="f1-step active">
           <div class="f1-step-icon"><i class=" icon-basket-1"></i></div>
           <p>Cart</p>
         </div>
-        <div class="f1-step active">
+        <div class="f1-step">
           <div class="f1-step-icon"><i class=" icon-truck"></i></div>
           <p>Shipping</p>
         </div>
-          <div class="f1-step active">
+          <div class="f1-step">
           <div class="f1-step-icon"><i class=" icon-dollar"></i></div>
           <p>Payment</p>
         </div>
@@ -336,86 +336,93 @@
 
       <div class="row margin_30">
 
-        <div class="col-md-8 add_bottom_15">
+        <div class="col-md-8 ">
 
-          <div class="form_title">
-						<h3><strong>2</strong>Payment Information</h3>
-						<p>
-							Mussum ipsum cacilds, vidis litro abertis.
-						</p>
-					</div>
+          <table class="table table-striped cart-list add_bottom_30">
+						<thead>
+							<tr>
+								<th>
+									Item
+								</th>
+								<th>
+									Quantity
+								</th>
+								<th>
+									Discount
+								</th>
+								<th>
+									Total
+								</th>
+								<th>
+									Actions
+								</th>
+							</tr>
+						</thead>
+						<tbody>
 
-          <div class="step">
-						<div class="form-group">
-							<label>Name on card</label>
-							<input type="text" class="form-control" id="name_card_bookign" name="name_card_bookign">
-						</div>
-						<div class="row">
-							<div class="col-md-6 col-sm-6">
-								<div class="form-group">
-									<label>Card number</label>
-									<input type="text" id="card_number" name="card_number" class="form-control">
-								</div>
-							</div>
-							<div class="col-md-6 col-sm-6">
-								<img src="assets/images/cards.png" width="207" height="43" alt="Cards" class="cards">
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-6">
-								<label>Expiration date</label>
-								<div class="row">
-									<div class="col-md-6">
-										<div class="form-group">
-											<input type="text" id="expire_month" name="expire_month" class="form-control" placeholder="MM">
-										</div>
+							<tr>
+								<td>
+									<div class="thumb_cart">
+										<img src="">
 									</div>
-									<div class="col-md-6">
-										<div class="form-group">
-											<input type="text" id="expire_year" name="expire_year" class="form-control" placeholder="Year">
-										</div>
+									<span class="item_cart">Collage Prints</span>
+								</td>
+								<td>
+									<div class="numbers-row">
+										<input type="text" value="1" class="qty2 form-control" name="quantity">
+									<div class="inc button_inc">+</div><div class="dec button_inc">-</div></div>
+								</td>
+								<td>
+									0%
+								</td>
+								<td>
+									<strong>$50</strong>
+								</td>
+								<td class="options">
+									<a href="#"><i class=" icon-trash"></i></a>
+
+								</td>
+							</tr>
+
+
+              <tr>
+								<td>
+									<div class="thumb_cart">
+										<img src="">
 									</div>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="form-group">
-									<label>Security code</label>
-									<div class="row">
-										<div class="col-md-4">
-											<div class="form-group">
-												<input type="text" id="ccv" name="ccv" class="form-control" placeholder="CCV">
-											</div>
-										</div>
-										<div class="col-md-8">
-											<img src="assets/images/icon_ccv.gif" width="50" height="29" alt="ccv"><small>Last 3 digits</small>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!--End row -->
+									<span class="item_cart">Collage Prints</span>
+								</td>
+								<td>
+									<div class="numbers-row">
+										<input type="text" value="1" class="qty2 form-control" name="quantity">
+									<div class="inc button_inc">+</div><div class="dec button_inc">-</div></div>
+								</td>
+								<td>
+									0%
+								</td>
+								<td>
+									<strong>$50</strong>
+								</td>
+								<td class="options">
+									<a href="#"><i class=" icon-trash"></i></a>
 
-						<hr>
-
-						<h4>Or checkout with Paypal</h4>
-						<p>
-							Lorem ipsum dolor sit amet, vim id accusata sensibus, id ridens quaeque qui. Ne qui vocent ornatus molestie, reque fierent dissentiunt mel ea.
-						</p>
-						<p>
-							<img src="assets/images/paypal_bt.png" alt="Image">
-						</p>
-					</div>
+								</td>
+							</tr>
 
 
-					<div id="policy">
-						<h4>Cancellation policy</h4>
-						<div class="form-group">
-							<label>
-								<div class="icheckbox_square-grey" style="position: relative;"><input type="checkbox" name="policy_terms" id="policy_terms" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>I accept terms and conditions and general policy.</label>
-						</div>
-						<a href="confirmation.html" class="btn_1 green medium">SUBMIT NOW</a>
-					</div>
-				</div>
+
+
+
+
+
+
+
+
+						</tbody>
+					</table>
+
+
+        </div>
 
 
 
@@ -430,24 +437,24 @@
 
                 <tr>
 									<td>
-										Weight
+										Point Order
 									</td>
 									<td class="text-right">
-										0 g.
+										xxx
 									</td>
 								</tr>
 
 								<tr>
 									<td>
-										Total product
+										Total
 									</td>
 									<td class="text-right">
-										0
+										xxx
 									</td>
 								</tr>
 								<tr>
 									<td>
-										Shipping price
+										Discount
 									</td>
 									<td class="text-right">
 										฿20
@@ -456,7 +463,7 @@
 
 								<tr class="total">
 									<td>
-										Total
+										Summary
 									</td>
 									<td class="text-right">
 										฿20
@@ -467,18 +474,19 @@
 
 					</div>
 
+          <a href="shipping.html" class="btn btn-submit btn-block" style="height:43px;">NEXT</a>
+          <br />
+          <a class="btn_full_outline " style="margin-bottom: 30px;" href="shipping.html"><i class="icon-right"></i> Continue shopping</a>
 
 
 
-          <div class="box_style_4">
-						<i class="icon_set_1_icon-57"></i>
-						<h4>Need <span>Help?</span></h4>
-						<a href="tel://004542344599" class="phone">+45 423 445 99</a>
-						<small>Monday to Friday 9.00am - 7.30pm</small>
-					</div>
 
 
           </div>
+
+
+
+
 
 
         </div>

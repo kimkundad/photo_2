@@ -11,653 +11,485 @@
   <meta name="author" content="">
   <meta name="keywords" content="">
 
-  <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
-  <link href="assets/css/base.css" rel="stylesheet">
-  <link href="assets/css/skins/square/grey.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/slider-pro.min.css" />
-  <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
-  <link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
-
-
-  <style>
-    body,
-    html,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    span,
-    strong {
-      font-family: 'Kanit', sans-serif;
-    }
-    p {
-      font-size: 14px;
-    }
-    body {
-
-      font-size: 13px;
-    }
-
-    .slider-pro {
-      margin-top: 120px;
-    }
-
-
-
-
-
-  </style>
+  <?php include './layouts/style.php' ?>
 
 </head>
 
 <body class="bobo" style="">
 
 
+<?php include 'layouts/header.php';?>
+
+<style>
+figure {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.1);
+}
+</style>
 
 
-  <div id="preloader" style="display: none;">
-    <div class="sk-spinner sk-spinner-wave">
-      <div class="sk-rect1"></div>
-      <div class="sk-rect2"></div>
-      <div class="sk-rect3"></div>
-      <div class="sk-rect4"></div>
-      <div class="sk-rect5"></div>
+
+<div class="slider-pro" id="my-slider">
+  <div class="sp-slides">
+    <!-- Slide 1 -->
+    <div class="sp-slide">
+      <img class="sp-image" src="assets/image/slide/17ESP004_web-banner-FA-adjusted-2-1_1.jpg" />
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="sp-slide">
+      <img class="sp-image" src="assets/image/slide/1400x570 pixel-01 of DigitalLab.jpg" />
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="sp-slide">
+      <img class="sp-image" src="assets/image/slide/kv-homepage-b2b-optimised2.jpg" />
     </div>
   </div>
-  <!-- End Preload -->
+</div>
 
-  <div class="layer"></div>
-  <!-- Mobile menu overlay mask -->
 
-  <!-- Header================================================== -->
-  <header class="" id="plain" style="background-image: url(assets/images/overlay.png); padding: 0; */">
-    <div id="top_line" style="background-color: #FAFAE2; padding-top: 10px;">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-sm-6 col-xs-6">
-            <a href="" style="font-size: 13px;">Add photo</a> <a href="" style="font-size: 13px; border-left: 1px solid rgba(0,0,0,0.1); padding-left:5px;"> My photo</a>
-          </div>
+<main>
 
-          <div class="col-md-4 col-sm-3 col-xs-3">
-            <div id="logo">
-              <a href="index.html"><img src="assets/image/logo-website.png" height="64" alt="TEENEEJJ" data-retina="true" class="logo_normal"></a>
+  <div class="container margin_30">
 
-            </div>
-          </div>
+    <div class="row">
 
-          <div class="col-md-4 col-sm-6 col-xs-6">
-            <ul id="top_links">
 
+      <div class="col-md-6 ">
 
-              <li>
-								<div class="dropdown dropdown-mini">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown" id="access_link" >shuvit funsok</a>
-									<div class="dropdown-menu">
-										<ul id="lang_menu">
+        <div class="general_icons text-center">
+          <ul>
+            <li><img src="assets/images/social/fb.png" /></li>
+            <li><img src="assets/images/social/ig.png" /></li>
 
-											<li><a href="#0">Profile</a>
-											</li>
-											<li><a href="#0">Setting</a>
-											</li>
-											<li><a href="#0">My Order</a>
-											</li>
-											<li><a href="#0">Sign out</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-								<!-- End Dropdown access -->
-							</li>
-
-
-              <li>
-                <div class="dropdown dropdown-access">
-                  <a href="login.html" class="dropdown-toggle" id="access_link">login</a>
-
-                </div>
-                <!-- End Dropdown access -->
-              </li>
-              <li><a href="" id="wishlist_link">Wishlist</a></li>
-
-            </ul>
-          </div>
-        </div>
-        <!-- End row -->
-      </div>
-      <!-- End container-->
-    </div>
-    <!-- End top line-->
-
-    <div class="container">
-      <div class="row">
-
-        <div class="col-md-3 col-sm-3 col-xs-3 visible-sm visible-xs">
-          <div id="logo" style="margin-top: 5px; margin-bottom: 5px;">
-            <a href="index.html"><img src="assets/image/logo-website.png" height="64" alt="TEENEEJJ" data-retina="true" style="height: 40px;" class="logo_normal"></a>
-
-          </div>
-        </div>
-
-        <nav class="col-md-12 col-sm-12 col-xs-12">
-          <a class="cmn-toggle-switch cmn-toggle-switch__htx open_close" href="javascript:void(0);"><span>Menu mobile</span></a>
-          <div class="main-menu">
-            <div id="header_menu">
-              <img src="assets/image/logo-website.png" height="54" alt="City tours" data-retina="true">
-            </div>
-            <a href="#" class="open_close" id="close_in"><i class="icon_set_1_icon-77"></i></a>
-            <ul>
-
-
-              <li class="submenu">
-                <a href="javascript:void(0);" class="show-submenu">PHOTO PRINT <i class="icon-down-open-mini"></i></a>
-                <ul>
-                  <li><a href="photo_print.html">TRADITIONAL SIZES</a></li>
-                  <li><a href="#">SNAP SIZE</a></li>
-                  <li><a href="#">POLAROID SIZE</a></li>
-                  <li><a href="#">INSTAGRAM SIZE</a></li>
-                  <li><a href="#">COLLAGE PRINTS</a></li>
-
-                </ul>
-              </li>
-
-
-              <li class="submenu">
-                <a href="javascript:void(0);" class="show-submenu">DIGITAL OFFSET PRINTS <i class="icon-down-open-mini"></i></a>
-                <ul>
-                  <li><a href="product_1.html">2 SIDED PRINT</a></li>
-                  <li><a href="#">POSTCARD</a></li>
-                  <li><a href="#">NAME CARD</a></li>
-                  <li><a href="#">LABEL STICKER</a></li>
-                  <li><a href="#">BROCHURE</a></li>
-                  <li><a href="#">LEAFLET</a></li>
-                </ul>
-              </li>
-
-              <li class="submenu">
-                <a href="javascript:void(0);" class="show-submenu">PHOTOBOOK <i class="icon-down-open-mini"></i></a>
-                <ul>
-                  <li><a href="#">SQUARE BOOK</a></li>
-                  <li><a href="#">PORTRAIT BOOK</a></li>
-                  <li><a href="#">LANDSCAPE BOOK</a></li>
-                </ul>
-              </li>
-
-              <li class="submenu">
-                <a href="javascript:void(0);" class="show-submenu">CALENDAR <i class="icon-down-open-mini"></i></a>
-                <ul>
-                  <li><a href="#">PORTRAIT </a></li>
-                  <li><a href="#">LANDSCAPE </a></li>
-                  <li><a href="#">HANG-UP </a></li>
-                </ul>
-              </li>
-
-              <li class="submenu">
-                <a href="javascript:void(0);" class="show-submenu">CARDS <i class="icon-down-open-mini"></i></a>
-                <ul>
-                  <li><a href="#">WEDDING CARDS</a></li>
-                  <li><a href="#">INVITATION CARDS</a></li>
-                  <li><a href="#">BIRTHDAY CARDS</a></li>
-                  <li><a href="#">ANNIVERSARY CARDS</a></li>
-                </ul>
-              </li>
-
-              <li class="submenu">
-                <a href="javascript:void(0);" class="show-submenu">FRAMES <i class="icon-down-open-mini"></i></a>
-                <ul>
-                  <li><a href="#">CANVAS </a></li>
-                  <li><a href="#">BORDERLESS FRAME</a></li>
-                  <li><a href="#">MODERN FRAME</a></li>
-                  <li><a href="#">GOLDENv FRAME</a></li>
-                </ul>
-              </li>
-
-              <li class="submenu">
-                <a href="javascript:void(0);" class="show-submenu">GIFTS <i class="icon-down-open-mini"></i></a>
-                <ul>
-                  <li><a href="#">T-SHIRT </a></li>
-                  <li><a href="#">MUG </a></li>
-                  <li><a href="#">JIGSAW </a></li>
-                  <li><a href="#">MAGNET </a></li>
-
-                  <li><a href="#">STICKER </a></li>
-                  <li><a href="#">PILLOW CASE </a></li>
-                  <li><a href="#">SCARF </a></li>
-                  <li><a href="#">BAG </a></li>
-                </ul>
-              </li>
-
-              <li class="submenu">
-                <a href="javascript:void(0);" class="show-submenu">PROMOTION </a>
-
-              </li>
-
-
-
-
-
-
-
-            </ul>
-
-
-          </div>
-          <!-- End main-menu -->
-
-
-          <ul id="top_tools" class=" leng-switch">
-
-            <li class="submenu hidden-sm hidden-xs">
-              <div style="position: relative; top: -6px;">
-                <i class="icon-globe-1"></i> <a href="#0">EN</a> - <a href="#0">TH</a>
-              </div>
-
-            </li>
-                        <li>
-                            <div class="dropdown dropdown-cart">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class=" icon-basket-1"></i>Cart (2) </a>
-                                <ul class="dropdown-menu" id="cart_items" >
-                                    <li>
-                                        <div class="image"><img src="assets/images/HGifts.jpg" alt="image"></div>
-                                        <strong>
-										<a href="#">Louvre museum</a>1x $36.00 </strong>
-                                        <a href="#" class="action"><i class="icon-trash"></i></a>
-                                    </li>
-                                    <li>
-                                        <div class="image"><img src="assets/images/HPhotobooks.jpg" alt="image"></div>
-                                        <strong>
-										<a href="#">Versailles tour</a>2x $36.00 </strong>
-                                        <a href="#" class="action"><i class="icon-trash"></i></a>
-                                    </li>
-
-                                    <li>
-                                        <div>Total: <span>$120.00</span></div>
-                                        <a href="cart.html" class="button_drop">Go to cart</a>
-                                        <a href="shipping.html" class="button_drop outline">Check out</a>
-                                    </li>
-                                </ul>
-                            </div><!-- End dropdown-cart-->
-                        </li>
-                    </ul>
-
-
-
-
-
-
-        </nav>
-      </div>
-    </div>
-    <!-- container -->
-  </header>
-  <!-- End Header -->
-
-
-  <div class="slider-pro" id="my-slider">
-    <div class="sp-slides">
-      <!-- Slide 1 -->
-      <div class="sp-slide">
-        <img class="sp-image" src="assets/image/slide/17ESP004_web-banner-FA-adjusted-2-1_1.jpg" />
-      </div>
-
-      <!-- Slide 2 -->
-      <div class="sp-slide">
-        <img class="sp-image" src="assets/image/slide/1400x570 pixel-01 of DigitalLab.jpg" />
-      </div>
-
-      <!-- Slide 3 -->
-      <div class="sp-slide">
-        <img class="sp-image" src="assets/image/slide/kv-homepage-b2b-optimised2.jpg" />
-      </div>
-    </div>
-  </div>
-
-
-  <main>
-
-    <div class="container margin_30">
-
-      <div class="row">
-        <div class="col-md-6 ">
-
-          <div class="general_icons text-center">
-            <ul>
-              <li><img src="assets/images/social/639816_network_512x512.png" /></li>
-              <li><img src="assets/images/social/fb.png" /></li>
-              <li><img src="assets/images/social/icono-de.png" /></li>
-              <li><img src="assets/images/social/mobile-icon.png" /></li>
-              <li><img src="assets/images/social/twitter_circle-512.png" /></li>
-
-            </ul>
-          </div>
-          <h3 class="text-center">CONNECT WITH US!</h3>
-        </div>
-        <div class="col-md-6 ">
-          <div class="text-center">
-            <h3>SIGN IN</h3>
-            <p>
-              SIGN IN OR JOIN TO MAKE A BEAUTIFUL<br /> PHOTO GIFT.
-            </p>
-
-
-            <a href="login.html" class="btn_1">Login</a>
-            <a href="login.html" class="btn_3">Sign up</a>
-          </div>
-
-        </div>
-      </div>
-
-
-
-
-    </div>
-    <!-- End container -->
-
-
-    <div class="container margin_60">
-
-      <div class=" margin_30 text-center">
-        <h2 class="major"><span>NEW ARRIVALS!</span></h2>
-
-      </div>
-
-      <div class="row">
-
-        <div class="col-md-6 col-sm-6 text-center">
-          <p>
-            <a href="photo_print.html"><img src="assets/images/nn1.jpg" alt="Pic" class="img-responsive"></a>
-          </p>
-          <h4>FLAT CARDS</h4>
-          <p>
-            70% off 5x7 Stationery Flat Cards.
-          </p>
-        </div>
-
-        <div class="col-md-6 col-sm-6 text-center">
-          <p>
-            <a href="product_1.html"><img src="assets/images/nn2.jpg" alt="Pic" class="img-responsive"></a>
-          </p>
-          <h4>FLAT CARDS</h4>
-          <p>
-            70% off 5x7 Stationery Flat Cards.
-          </p>
-        </div>
-
-
-
-        <div class="col-md-3 col-sm-6 text-center">
-          <p>
-            <a href="#"><img src="assets/images/HGifts.jpg" alt="Pic" class="img-responsive"></a>
-          </p>
-          <h4>FLAT CARDS</h4>
-          <p>
-            70% off 5x7 Stationery Flat Cards.
-          </p>
-        </div>
-
-        <div class="col-md-3 col-sm-6 text-center">
-          <p>
-            <a href="#"><img src="assets/images/HPhotobooks.jpg" alt="Pic" class="img-responsive"></a>
-          </p>
-          <h4>FLAT CARDS</h4>
-          <p>
-            70% off 5x7 Stationery Flat Cards.
-          </p>
-        </div>
-
-        <div class="col-md-3 col-sm-6 text-center">
-          <p>
-            <a href="#"><img src="assets/images/Hframes.jpg" alt="Pic" class="img-responsive"></a>
-          </p>
-          <h4>FLAT CARDS</h4>
-          <p>
-            70% off 5x7 Stationery Flat Cards.
-          </p>
-        </div>
-
-        <div class="col-md-3 col-sm-6 text-center">
-          <p>
-            <a href="#"><img src="assets/images/HGifts.jpg" alt="Pic" class="img-responsive"></a>
-          </p>
-          <h4>FLAT CARDS</h4>
-          <p>
-            70% off 5x7 Stationery Flat Cards.
-          </p>
-        </div>
-
-
-      </div>
-
-
-      <p class="text-center add_bottom_30 margin_60">
-				<a href="#" class="btn_1">All Product </a>
-			</p>
-
-
-      <div class=" margin_30 text-center">
-        <h2 class="major"><span>WHAT'S HOT</span></h2>
-
-      </div>
-
-
-
-      <div class="row">
-
-
-        <div class="col-md-3 col-sm-6 text-center">
-          <p>
-            <a href="#"><img src="assets/images/HGifts.jpg" alt="Pic" class="img-responsive"></a>
-          </p>
-          <h4>FLAT CARDS</h4>
-          <p>
-            70% off 5x7 Stationery Flat Cards.
-          </p>
-        </div>
-
-        <div class="col-md-3 col-sm-6 text-center">
-          <p>
-            <a href="#"><img src="assets/images/HPhotobooks.jpg" alt="Pic" class="img-responsive"></a>
-          </p>
-          <h4>FLAT CARDS</h4>
-          <p>
-            70% off 5x7 Stationery Flat Cards.
-          </p>
-        </div>
-
-        <div class="col-md-3 col-sm-6 text-center">
-          <p>
-            <a href="#"><img src="assets/images/Hframes.jpg" alt="Pic" class="img-responsive"></a>
-          </p>
-          <h4>FLAT CARDS</h4>
-          <p>
-            70% off 5x7 Stationery Flat Cards.
-          </p>
-        </div>
-
-        <div class="col-md-3 col-sm-6 text-center">
-          <p>
-            <a href="#"><img src="assets/images/HGifts.jpg" alt="Pic" class="img-responsive"></a>
-          </p>
-          <h4>FLAT CARDS</h4>
-          <p>
-            70% off 5x7 Stationery Flat Cards.
-          </p>
-        </div>
-
-
-      </div>
-
-
-
-
-      <p class="text-center add_bottom_30 margin_60">
-				<a href="#" class="btn_1">All Product </a>
-			</p>
-
-
-      <div class=" margin_30 text-center">
-        <h2 class="major"><span>OUR CUSTOMERS</span></h2>
-
-      </div>
-
-
-
-      <section class="regular slider">
-        <div>
-          <img src="assets/image/logo-Isuzu.png">
-        </div>
-        <div>
-          <img src="assets/image/logo-fwd.png">
-        </div>
-        <div>
-          <img src="assets/image/logo-samsung.png">
-        </div>
-        <div>
-          <img src="assets/image/logo-SB.png">
-        </div>
-        <div>
-          <img src="assets/image/logo-scotch.png">
-        </div>
-        <div>
-          <img src="assets/image/logo-thaiairway.png">
-        </div>
-        <div>
-          <img src="assets/image/logo-major.png">
-        </div>
-        <div>
-          <img src="assets/image/logo-pasaya.png">
-        </div>
-        <div>
-          <img src="assets/image/logo-ptt.png">
-        </div>
-        <div>
-          <img src="assets/image/logo-SCG.png">
-        </div>
-      </section>
-
-    </div>
-    <!-- End container -->
-  </main>
-  <!-- End main -->
-
-
-
-
-
-
-
-
-  <footer class="revealed">
-    <div class="container">
-
-      <div class="row">
-        <div class="col-md-12">
-
-
-          <ul id="top_links" style="float: none; text-align: center;">
-
-            <li><a href="">ABOUT US</a></li>
-            <li><a href="">PRODUCT PRICE</a></li>
-            <li><a href="">SHOW TO ORDER</a></li>
-            <li><a href="">DELIVERY OPTIONS</a></li>
-            <li><a href="">PAYMENT OPTIONS</a></li>
-            <li><a href="">TERM OF SERVICES</a></li>
-            <li><a href="">CONTACT US</a></li>
+            <li><img src="assets/images/social/icono-de.png" /></li>
+            <li><img src="assets/images/social/mobile-icon.png" /></li>
+            <li><img src="assets/images/social/twitter_circle-512.png" /></li>
 
           </ul>
         </div>
+        <h3 class="text-center">CONNECT WITH US!</h3>
+        <h3 class="text-center"><?=$thai['test']?> <?=$_SESSION["lang"]?></h3>
       </div>
-      <!-- End row -->
+
+      <hr class="visible-sm visible-xs"/>
+
+      <div class="col-md-6 ">
+        <div class="text-center">
+          <h3>SIGN IN</h3>
+          <p>
+            SIGN IN OR JOIN TO MAKE A BEAUTIFUL<br /> PHOTO GIFT.
+          </p>
 
 
-
-      <div class="row">
-        <div class="col-md-12">
-          <div id="social_footer">
-            <ul>
-              <li><img src="assets/image/logo-secured.png" style="height:40px;" /></li>
-              <li><img src="assets/image/logo-visa.png" /></li>
-              <li><img src="assets/image/logo-master.png" /></li>
-              <li><img src="assets/image/logo-JCB.png" /></li>
-              <li><img src="assets/image/logo-2c2p.png" /></li>
-
-              <li><img src="assets/image/logo-paypal.png" /></li>
-              <li><img src="assets/image/logo-Delivery.png" /></li>
-              <li><img src="assets/image/logo-kerry.png" /></li>
-              <li><img src="assets/image/logo-ScgExpress.png" /></li>
-              <li><img src="assets/image/logo-thaipost.png" /></li>
-
-            </ul>
-            <p>© 2018 MasterPhotoNetwork. All rights reserved | Design: MasterPhotoNetwork</p>
-            <br /><br />
-          </div>
+          <a href="login.html" class="btn_1">Login</a>
+          <a href="login.html" class="btn_3">Sign up</a>
         </div>
+
       </div>
-      <!-- End row -->
+
+      <hr class="visible-sm visible-xs"/>
     </div>
-    <!-- End container -->
-  </footer>
-  <!-- End footer -->
-
-  <div id="toTop" style="display: none;"></div>
-  <!-- Back to top button -->
 
 
 
 
-  <script src="assets/js/jquery-1.11.2.min.js"></script>
-  <script src="assets/js/common_scripts_min.js"></script>
-  <script src="assets/js/functions.js"></script>
-  <script src="assets/js/jquery.magnific-popup.js"></script>
-  <!-- Specific scripts -->
-  <script src="assets/js/icheck.js"></script>
-  <script>
-    $('input').iCheck({
-      checkboxClass: 'icheckbox_square-grey',
-      radioClass: 'iradio_square-grey'
-    });
-  </script>
-
-  <script src="assets/js/jquery.ddslick.js"></script>
-  <script>
-    $("select.ddslick").each(function() {
-      $(this).ddslick({
-        showSelectedHTML: true
-      });
-    });
-  </script>
-
-  <script src="assets/js/jquery.sliderPro.min.js"></script>
-  <script type="text/javascript">
-    jQuery(document).ready(function($) {
-      $('#my-slider').sliderPro({
-        width: '100%',
-        height: '500',
-        arrows: true,
-        visibleSize: '100%',
+  </div>
+  <!-- End container -->
 
 
-        autoHeight: true,
-      });
-    });
-  </script>
+  <div class="container margin_60">
 
-  <script type="text/javascript" src="assets/slick/slick.min.js"></script>
-  <script type="text/javascript">
-  $(document).ready(function(){
-      $(".regular").slick({
-        dots: true,
-        infinite: true,
-        slidesToShow: 6,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        slidesToScroll: 6
-      });
-    });
-  </script>
+    <div class=" margin_30 text-center">
+      <h2 class="major"><span>NEW ARRIVALS!</span></h2>
 
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-6 col-sm-6 text-center">
+        <div class="hover01">
+
+            <a href="photo_print.php">
+              <figure>
+                <img src="assets/images/nn1.jpg" alt="Pic" class="img-responsive">
+              </figure>
+            </a>
+
+        </div>
+
+        <h4>FLAT CARDS</h4>
+        <p>
+          70% off 5x7 Stationery Flat Cards.
+        </p>
+      </div>
+
+      <div class="col-md-6 col-sm-6 text-center">
+        <div class="hover01">
+          <a href="product_1.php">
+            <figure>
+              <img src="assets/images/nn2.jpg" alt="Pic" class="img-responsive">
+            </figure>
+          </a>
+        </div>
+        <h4>FLAT CARDS</h4>
+        <p>
+          70% off 5x7 Stationery Flat Cards.
+        </p>
+      </div>
+
+
+
+      <div class="col-md-3 col-sm-6 text-center">
+
+        <div class="hover01">
+          <a href="product_1.php">
+            <figure>
+              <img src="assets/images/HGifts.jpg" alt="Pic" class="img-responsive">
+            </figure>
+          </a>
+        </div>
+        <h4>FLAT CARDS</h4>
+        <p>
+          70% off 5x7 Stationery Flat Cards.
+        </p>
+      </div>
+
+      <div class="col-md-3 col-sm-6 text-center">
+
+        <div class="hover01">
+          <a href="product_1.php">
+            <figure>
+              <img src="assets/images/HPhotobooks.jpg" alt="Pic" class="img-responsive">
+            </figure>
+          </a>
+        </div>
+        <h4>FLAT CARDS</h4>
+        <p>
+          70% off 5x7 Stationery Flat Cards.
+        </p>
+      </div>
+
+      <div class="col-md-3 col-sm-6 text-center">
+
+        <div class="hover01">
+          <a href="product_1.php">
+            <figure>
+              <img src="assets/images/Hframes.jpg" alt="Pic" class="img-responsive">
+            </figure>
+          </a>
+        </div>
+        <h4>FLAT CARDS</h4>
+        <p>
+          70% off 5x7 Stationery Flat Cards.
+        </p>
+      </div>
+
+      <div class="col-md-3 col-sm-6 text-center">
+
+        <div class="hover01">
+          <a href="product_1.php">
+            <figure>
+              <img src="assets/images/HGifts.jpg" alt="Pic" class="img-responsive">
+            </figure>
+          </a>
+        </div>
+        <h4>FLAT CARDS</h4>
+        <p>
+          70% off 5x7 Stationery Flat Cards.
+        </p>
+      </div>
+
+
+    </div>
+
+
+    <p class="text-center add_bottom_30 margin_60">
+      <a href="#" class="btn_1">All Product </a>
+    </p>
+
+
+    <div class=" margin_30 text-center">
+      <h2 class="major"><span>WHAT'S HOT</span></h2>
+
+    </div>
+
+
+
+    <div class="row">
+
+
+      <div class="col-md-3 col-sm-6 text-center">
+
+        <div class="hover01">
+          <a href="product_1.php">
+            <figure>
+              <img src="assets/images/HGifts.jpg" alt="Pic" class="img-responsive">
+            </figure>
+          </a>
+        </div>
+        <h4>FLAT CARDS</h4>
+        <p>
+          70% off 5x7 Stationery Flat Cards.
+        </p>
+      </div>
+
+      <div class="col-md-3 col-sm-6 text-center">
+
+        <div class="hover01">
+          <a href="product_1.php">
+            <figure>
+              <img src="assets/images/HPhotobooks.jpg" alt="Pic" class="img-responsive">
+            </figure>
+          </a>
+        </div>
+        <h4>FLAT CARDS</h4>
+        <p>
+          70% off 5x7 Stationery Flat Cards.
+        </p>
+      </div>
+
+      <div class="col-md-3 col-sm-6 text-center">
+
+        <div class="hover01">
+          <a href="product_1.php">
+            <figure>
+              <img src="assets/images/Hframes.jpg" alt="Pic" class="img-responsive">
+            </figure>
+          </a>
+        </div>
+        <h4>FLAT CARDS</h4>
+        <p>
+          70% off 5x7 Stationery Flat Cards.
+        </p>
+      </div>
+
+      <div class="col-md-3 col-sm-6 text-center">
+
+        <div class="hover01">
+          <a href="product_1.php">
+            <figure>
+              <img src="assets/images/HGifts.jpg" alt="Pic" class="img-responsive">
+            </figure>
+          </a>
+        </div>
+        <h4>FLAT CARDS</h4>
+        <p>
+          70% off 5x7 Stationery Flat Cards.
+        </p>
+      </div>
+
+
+      <div class="col-md-3 col-sm-6 text-center">
+
+        <div class="hover01">
+          <a href="product_1.php">
+            <figure>
+              <img src="assets/images/HGifts.jpg" alt="Pic" class="img-responsive">
+            </figure>
+          </a>
+        </div>
+        <h4>FLAT CARDS</h4>
+        <p>
+          70% off 5x7 Stationery Flat Cards.
+        </p>
+      </div>
+
+      <div class="col-md-3 col-sm-6 text-center">
+
+        <div class="hover01">
+          <a href="product_1.php">
+            <figure>
+              <img src="assets/images/HPhotobooks.jpg" alt="Pic" class="img-responsive">
+            </figure>
+          </a>
+        </div>
+        <h4>FLAT CARDS</h4>
+        <p>
+          70% off 5x7 Stationery Flat Cards.
+        </p>
+      </div>
+
+      <div class="col-md-3 col-sm-6 text-center">
+
+        <div class="hover01">
+          <a href="product_1.php">
+            <figure>
+              <img src="assets/images/Hframes.jpg" alt="Pic" class="img-responsive">
+            </figure>
+          </a>
+        </div>
+        <h4>FLAT CARDS</h4>
+        <p>
+          70% off 5x7 Stationery Flat Cards.
+        </p>
+      </div>
+
+      <div class="col-md-3 col-sm-6 text-center">
+
+        <div class="hover01">
+          <a href="product_1.php">
+            <figure>
+              <img src="assets/images/HGifts.jpg" alt="Pic" class="img-responsive">
+            </figure>
+          </a>
+        </div>
+        <h4>FLAT CARDS</h4>
+        <p>
+          70% off 5x7 Stationery Flat Cards.
+        </p>
+      </div>
+
+
+    </div>
+
+
+
+
+    <p class="text-center add_bottom_30 margin_60">
+      <a href="#" class="btn_1">All Product </a>
+    </p>
+
+
+
+
+    <div class=" margin_30 text-center">
+      <h2 class="major"><span>WHAT'S NEW</span></h2>
+
+    </div>
+
+
+
+    <div class="row">
+
+
+      <div class="col-md-4 col-sm-6 text-center">
+
+        <div class="hover01">
+          <a href="product_1.php">
+            <figure>
+              <img src="assets/images/HGifts.jpg" alt="Pic" class="img-responsive">
+            </figure>
+          </a>
+        </div>
+        <h4>FLAT CARDS</h4>
+        <p>
+          70% off 5x7 Stationery Flat Cards.
+        </p>
+      </div>
+
+      <div class="col-md-4 col-sm-6 text-center">
+
+        <div class="hover01">
+          <a href="product_1.php">
+            <figure>
+              <img src="assets/images/HPhotobooks.jpg" alt="Pic" class="img-responsive">
+            </figure>
+          </a>
+        </div>
+        <h4>FLAT CARDS</h4>
+        <p>
+          70% off 5x7 Stationery Flat Cards.
+        </p>
+      </div>
+
+      <div class="col-md-4 col-sm-6 text-center">
+
+        <div class="hover01">
+          <a href="product_1.php">
+            <figure>
+              <img src="assets/images/Hframes.jpg" alt="Pic" class="img-responsive">
+            </figure>
+          </a>
+        </div>
+        <h4>FLAT CARDS</h4>
+        <p>
+          70% off 5x7 Stationery Flat Cards.
+        </p>
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+    <p class="text-center add_bottom_30 margin_60">
+      <a href="#" class="btn_1">All Product </a>
+    </p>
+
+
+    <div class=" margin_30 text-center">
+      <h2 class="major"><span>OUR CUSTOMERS</span></h2>
+
+    </div>
+
+
+
+    <section class="regular slider">
+      <div class="col-md-2 ">
+        <img src="assets/image/logo-Isuzu.png" class="img-responsive">
+      </div>
+      <div class="col-md-2 ">
+        <img src="assets/image/logo-fwd.png" class="img-responsive">
+      </div>
+      <div class="col-md-2 ">
+        <img src="assets/image/logo-samsung.png" class="img-responsive">
+      </div>
+      <div class="col-md-2">
+        <img src="assets/image/logo-SB.png" class="img-responsive">
+      </div>
+      <div class="col-md-2">
+        <img src="assets/image/logo-scotch.png" class="img-responsive">
+      </div>
+      <div class="col-md-2">
+        <img src="assets/image/logo-thaiairway.png" class="img-responsive">
+      </div>
+      <div class="col-md-2">
+        <img src="assets/image/logo-major.png" class="img-responsive">
+      </div>
+      <div class="col-md-2">
+        <img src="assets/image/logo-pasaya.png" class="img-responsive">
+      </div>
+      <div class="col-md-2">
+        <img src="assets/image/logo-ptt.png" class="img-responsive">
+      </div>
+      <div class="col-md-2">
+        <img src="assets/image/logo-SCG.png" class="img-responsive">
+      </div>
+    </section>
+
+  </div>
+  <!-- End container -->
+</main>
+<!-- End main -->
+
+
+
+
+
+<?php include 'layouts/footer.php';?>
+<?php include 'layouts/script.php';?>
 
 </body>
 
