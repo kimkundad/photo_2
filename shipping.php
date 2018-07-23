@@ -213,7 +213,7 @@
             <label>
               <div class="icheckbox_square-grey" style="position: relative; width: 23px;"><input type="checkbox" name="policy_terms" id="policy_terms" style="position: absolute; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>I accept terms and conditions and general policy.</label>
           </div>
-          <a href="payment.html" class="btn btn-next">PAYMENT NOW</a>
+          <a href="payment.php" class="btn btn-next">PAYMENT NOW</a>
         </div>
       </div>
 

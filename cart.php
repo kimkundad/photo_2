@@ -200,9 +200,9 @@
 
         </div>
 
-        <a href="shipping.html" class="btn btn-submit btn-block" style="height:43px;">NEXT</a>
+        <a href="shipping.php" class="btn btn-submit btn-block" style="height:43px;">NEXT</a>
         <br />
-        <a class="btn_full_outline " style="margin-bottom: 30px;" href="shipping.html"><i class="icon-right"></i> Continue shopping</a>
+        <a class="btn_full_outline " style="margin-bottom: 30px;" href="shipping.php"><i class="icon-right"></i> Continue shopping</a>
 
 
 

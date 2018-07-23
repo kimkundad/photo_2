@@ -100,8 +100,8 @@ figure:hover+span {
           </p>
 
 
-          <a href="login.html" class="btn_1">Login</a>
-          <a href="login.html" class="btn_3">Sign up</a>
+          <a href="login.php" class="btn_1">Login</a>
+          <a href="login.php" class="btn_3">Sign up</a>
         </div>
 
       </div>

@@ -350,7 +350,7 @@
                      <div class="f1-buttons">
                        <br />
 
-                         <a href="cart.html" class="btn btn-submit btn-block">MAKE ORDER</a>
+                         <a href="cart.php" class="btn btn-submit btn-block">MAKE ORDER</a>
                      </div>
 
              </form>
