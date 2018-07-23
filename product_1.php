@@ -155,9 +155,11 @@
                      <div class="form-group">
 
                         <label class="step1">
-
+                          <div class="icheckbox_square-grey">
                             <input type="radio" id="f1-last-name" name="step1" value="4x6">
                             <ins class="iCheck-helper" ></ins>
+                          </div>
+
 
                           Size 4x6  <span class="jet-span">$24.99</span>
                         </label>
@@ -167,10 +169,10 @@
                        <div class="form-group">
 
                           <label class="item">
-
+                            <div class="icheckbox_square-grey">
                               <input type="radio" id="f1-last-name" name="step1" value="5x7">
                               <ins class="iCheck-helper" ></ins>
-
+                              </div>
                             Size 5x7  <span class="jet-span">$24.99</span>
                           </label>
 
@@ -178,10 +180,10 @@
                        <div class="form-group">
 
                           <label class="item">
-
+                            <div class="icheckbox_square-grey">
                               <input type="radio" id="f1-last-name" name="step1" value="8x10">
                               <ins class="iCheck-helper" ></ins>
-
+                              </div>
                             Size 8x10  <span class="jet-span">$24.99</span>
                           </label>
 
@@ -198,10 +200,10 @@
                      <div class="form-group">
 
                         <label class="">
-
+                          <div class="icheckbox_square-grey">
                             <input type="radio" id="f1-last-name" name="step2" value="portrait">
                             <ins class="iCheck-helper" ></ins>
-
+                            </div>
                           portrait
                         </label>
 
@@ -211,10 +213,10 @@
                      <div class="form-group">
 
                         <label class="">
-
+                          <div class="icheckbox_square-grey">
                             <input type="radio" id="f1-last-name" name="step2" value="landscape">
                             <ins class="iCheck-helper" ></ins>
-
+                            </div>
                           landscape
                         </label>
 
@@ -232,10 +234,10 @@
                      <div class="form-group">
 
                         <label class="">
-
+                          <div class="icheckbox_square-grey">
                             <input type="radio" id="f1-last-name" name="step3" value="portrait">
                             <ins class="iCheck-helper" ></ins>
-
+                            </div>
                           portrait
                         </label>
 
@@ -245,10 +247,10 @@
                      <div class="form-group">
 
                         <label class="">
-
+                          <div class="icheckbox_square-grey">
                             <input type="radio" id="f1-last-name" name="step3" value="landscape">
                             <ins class="iCheck-helper" ></ins>
-
+                            </div>
                           landscape
                         </label>
 
@@ -267,10 +269,10 @@
                      <div class="form-group">
 
                         <label class="">
-
+                          <div class="icheckbox_square-grey">
                             <input type="radio" id="f1-last-name" name="step4" value="black wood">
                             <ins class="iCheck-helper" ></ins>
-
+                            </div>
                           <img src="assets/images/138ec0b1bd0c12b962b376e8d8d7e56a-11127.png" width="50" />
                           black wood
                         </label>
@@ -281,10 +283,10 @@
                      <div class="form-group">
 
                         <label class="">
-
+                          <div class="icheckbox_square-grey">
                             <input type="radio" id="f1-last-name" name="step4" value="natural wood">
                             <ins class="iCheck-helper" ></ins>
-
+                            </div>
                           <img src="assets/images/ecd0a579f9cae01aeb12866d9e5800bc-11129.png" width="50" />
                           natural  wood
                         </label>
@@ -295,10 +297,10 @@
                      <div class="form-group">
 
                         <label class="">
-
+                          <div class="icheckbox_square-grey">
                             <input type="radio" id="f1-last-name" name="step4" value="walnut wood">
                             <ins class="iCheck-helper" ></ins>
-
+                            </div>
                           <img src="assets/images/6daa87d3921328958155c36af4751bb2-11128.png" width="50" />
                           walnut   wood
                         </label>
@@ -309,10 +311,10 @@
                      <div class="form-group">
 
                         <label class="">
-
+                          <div class="icheckbox_square-grey">
                             <input type="radio" id="f1-last-name" name="step4" value="white wood">
                             <ins class="iCheck-helper" ></ins>
-
+                            </div>
                           <img src="assets/images/187b5ce94e83199fc958e54931ee2652-11125.png" width="50" />
                           white  wood
                         </label>
